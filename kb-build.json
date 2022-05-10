@@ -1,0 +1,23 @@
+{
+  "recommendations": {
+    "087d8621-ce58-4cd5-9f87-2a28a6d5ad0f": {
+      "action": "Perform Radon Test",
+      "frequency": 63072000,
+      "feature": "0992acd4-ab92-447a-ae4f-4ed2d19a3bbf"
+    }
+  },
+  "features": {
+    "149888ee-1d8a-4dff-9a47-a643bf09eb83": {
+      "name": "Water Heater"
+    },
+    "a0550926-6c1f-4de2-adfa-ec25966aa674": {
+      "name": "Pool Pump"
+    },
+    "0992acd4-ab92-447a-ae4f-4ed2d19a3bbf": {
+      "name": "Radon Mitigation System"
+    },
+    "3b372914-a0ba-44b8-be3b-0e5e2aa1e4d5": {
+      "name": "HVAC Unit"
+    }
+  }
+}
