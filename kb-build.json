@@ -3,6 +3,12 @@
     "087d8621-ce58-4cd5-9f87-2a28a6d5ad0f": {
       "action": "Perform Radon Test",
       "frequency": 63072000,
+      "feature": "0992acd4-ab92-447a-ae4f-4ed2d19a3bbf",
+      "urgency": "CRITICAL"
+    },
+    "4b8beac4-5e74-4f1a-8a1c-67feca672718": {
+      "action": "Change Battery",
+      "frequency": 10368000,
       "feature": "0992acd4-ab92-447a-ae4f-4ed2d19a3bbf"
     }
   },

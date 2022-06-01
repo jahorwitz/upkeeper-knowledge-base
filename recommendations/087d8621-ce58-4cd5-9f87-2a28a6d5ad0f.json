@@ -1,5 +1,6 @@
 {
   "action": "Perform Radon Test",
   "frequency": 63072000,
-  "feature": "0992acd4-ab92-447a-ae4f-4ed2d19a3bbf"
+  "feature": "0992acd4-ab92-447a-ae4f-4ed2d19a3bbf",
+  "urgency": "CRITICAL"
 }
