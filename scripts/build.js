@@ -1,6 +1,3 @@
-// Get a list of .json Files from /recommendations
-// Load features from ./features.json
-
 import chalk from "chalk";
 import fse from "fs-extra";
 
