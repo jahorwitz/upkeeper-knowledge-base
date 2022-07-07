@@ -4,7 +4,7 @@ import fse from "fs-extra";
 const RECOMMENDATIONS_DIR = new URL("../recommendations", import.meta.url);
 const FEATURES_URL = new URL("../features.json", import.meta.url);
 
-const listRecommendations = async () => {
+const listRecommendationsFiles = async () => {
   try {
     const files = (await fse.readdir(RECOMMENDATIONS_DIR)).filter((file) =>
       file.endsWith(".json")
@@ -64,7 +64,7 @@ const loadRecommendations = async (files) => {
 };
 
 (async () => {
-  const files = await listRecommendations();
+  const files = await listRecommendationsFiles();
   const features = await loadFeatures();
 
   const recommendations = buildRecommendationsObj(
